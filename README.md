@@ -64,5 +64,9 @@ cd "Assignment2"
 bun install
 bun run dev
 ```
+## 🔗 Live Demo
+👉https://assignment2-xc1w.vercel.app/
+
+
 
 

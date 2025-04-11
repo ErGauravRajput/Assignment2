@@ -11,14 +11,9 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const location = useLocation();
 
-  // Clear form input data when navigating to login or signup
+  
   useEffect(() => {
-    // When navigating to login or signup pages, we want to 
-    // tell the browser not to autofill by triggering a page reload
-    // This is a workaround for persistent autofill issues
     if (location.pathname === '/login' || location.pathname === '/signup') {
-      // Add a random timestamp to session storage - this won't affect the app
-      // but will make the browser think the form is "new" each time
       sessionStorage.setItem('formTimestamp', Date.now().toString());
     }
   }, [location.pathname]);

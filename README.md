@@ -1,4 +1,4 @@
-📱 Pixel Perfect Mobile UI – React
+## 📱 Pixel Perfect Mobile UI – React
 This project is a pixel-perfect, mobile-first React application that mimics a mobile app layout, centered on desktop screens and designed based on high-fidelity design screenshots.
 
 🔥 Features

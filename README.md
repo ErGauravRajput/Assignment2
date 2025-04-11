@@ -2,6 +2,7 @@
 This project is a pixel-perfect, mobile-first React application that mimics a mobile app layout, centered on desktop screens and designed based on high-fidelity design screenshots.
 
 🔥 Features
+
 ✅ Pixel-perfect UI inspired by Figma designs
 
 ✅ Mobile-centered interface (375x812)
